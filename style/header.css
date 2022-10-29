@@ -50,4 +50,5 @@
 .header__info-geopark:hover,
 .header__info-book:hover{
     background-color: rgb(96, 82, 148);
+    color: white;
 }
