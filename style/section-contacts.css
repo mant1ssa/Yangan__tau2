@@ -165,5 +165,9 @@
     letter-spacing: 0.01em;
     text-transform: uppercase;
     color: #F7F7F7;
-
+    transition: .2s;
+}
+.pink__input-btn:hover{
+    background-color: white !important;
+    color: #605294;
 }

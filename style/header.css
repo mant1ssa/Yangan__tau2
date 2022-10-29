@@ -2,6 +2,9 @@
     min-height: 120px;
     border-bottom: 1.5px solid rgba(54, 28, 9, 0.25);
 }
+.logo{
+    margin-left: 202px;
+}
 .header__burger{
     position: relative;
     width: 65px;
