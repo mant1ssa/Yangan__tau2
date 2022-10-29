@@ -1,0 +1,34 @@
+.section-pink{
+    background-color: #605294;
+    margin-top: 429px;
+    height: 1233px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 112px;
+    position: relative;
+}
+.pink__img{
+    width: 1347px;
+    height: 690px;
+    position: absolute;
+    /* top: 40px; */
+}
+.img1{
+    top: -531px;
+}
+.img2{
+    bottom: -229px;
+}
+.pink__p{
+    /* max-width: 526px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px; */
+
+    color: #FAF5E9;
+    /* position: absolute; */
+    margin-top: 328px;
+}

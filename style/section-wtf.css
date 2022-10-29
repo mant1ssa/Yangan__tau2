@@ -1,0 +1,45 @@
+.section-wtf{
+    padding-top: 137px;
+    padding-bottom: 276px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/wtf/mountains.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.wtf__text-above{
+    /* margin: 0 auto; */
+    margin-bottom: 112px;
+    max-width: 663px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #222222;
+}
+.wtf__h4{
+    /* max-width: 250px;
+    margin: 0 auto; */
+    margin-bottom: 40px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 105%;
+    color: #361C09;
+}
+.wtf__lengths-item{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 102px;
+    line-height: 112%;
+    color: #361C09;
+}
+.wtf__lengths-item:not(:last-child){
+    margin-right: 269px;
+}

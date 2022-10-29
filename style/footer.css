@@ -1,0 +1,82 @@
+.footer{
+    background-image: url(../img/wtf/mountains.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.footer .container{
+    max-width: calc(1920px - 300px);
+    margin: 0 auto;
+    padding: 70px 150px;
+    padding-bottom: 0;
+}
+.footer__upper{
+    display: flex;
+    gap: 120px;
+}
+.footer__upper-left{
+    /* background-color: aquamarine; */
+}
+.footer__upper-right{
+    /* background-color: blueviolet; */
+}
+.right__up{
+    /* background-color: beige; */
+}
+.right__down{
+    /* background-color: crimson; */
+}
+.left__logo{
+    margin-bottom: 33px;
+}
+.left__links{
+    display: flex;
+    gap: 20px;
+}
+.right__up{
+    display: flex;
+    gap: 43px;
+}
+.block__head{
+    margin-bottom: 17px;
+}
+.block__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.right__down{
+    display: grid;
+    grid-template-columns: repeat(3, 270px);
+    margin-top: 65px;
+    column-gap: 43px;
+    row-gap: 20px;
+}
+
+.footer__down{
+    border-top: 1px solid rgba(54, 28, 9, 0.25);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.down__left{
+    display: flex;
+    gap: 50px;
+}
+.wrapper .footer__down{
+    max-width: 1620px;
+    margin: 0 auto;
+    margin-top: 92px;
+}
+/* TEXTS -------------- */
+.block__head{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #361C09;
+}
+.right__down .block__head{
+    margin-bottom: 0;
+}

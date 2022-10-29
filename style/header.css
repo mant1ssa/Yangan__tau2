@@ -1,0 +1,53 @@
+.header{
+    min-height: 120px;
+    border-bottom: 1.5px solid rgba(54, 28, 9, 0.25);
+}
+.header__burger{
+    position: relative;
+    width: 65px;
+    height: 15px;
+    cursor: pointer;
+    display: flex;
+}
+.header__burger::after,
+.header__burger::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #361C09;
+}
+.header__burger::before{
+    top: 0;
+    height: 2px;
+}
+.header__burger::after{
+    bottom: 0;
+    height: 2px;
+}
+.header__burger-span{
+    position: absolute;
+    /* right: -34px; */
+    right: calc(-34px - 21px);
+    bottom: -2px;
+    font-weight: 500;
+}
+.header__info{
+    display: flex;
+    gap: 20px;
+}
+.header__info-geopark,
+.header__info-book{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.6px;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    border: 1px solid #361C09;
+    backdrop-filter: blur(5px);
+    transition: .2s;
+}
+.header__info-geopark:hover,
+.header__info-book:hover{
+    background-color: rgb(96, 82, 148);
+}

@@ -1,0 +1,28 @@
+.section-rew{
+    /* margin-top: 200px; */
+    padding-top: 369px;
+    padding-bottom: 112px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+}
+.rew-slider{
+    padding: 0 150px;
+}
+.rew-slider__image{
+    margin: 0 10px;
+}
+.rew__p{
+    margin: 0 auto;
+    margin-bottom: 112px;
+}
+.slick-list{
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+}
+/* .rew-slider__image img{
+    width: 526px;
+    height: 370px;
+} */
