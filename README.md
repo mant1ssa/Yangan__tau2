@@ -1,3 +1,3 @@
 # Yangan-Tau
 web site
-https://mant1ssa.github.io/Yangan-Tau/
+https://mant1ssa.github.io/Yangan__tau2/
