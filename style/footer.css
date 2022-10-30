@@ -19,12 +19,6 @@
 .footer__upper-right{
     /* background-color: blueviolet; */
 }
-.right__up{
-    /* background-color: beige; */
-}
-.right__down{
-    /* background-color: crimson; */
-}
 .left__logo{
     margin-bottom: 33px;
 }
@@ -34,7 +28,11 @@
 }
 .right__up{
     display: flex;
-    gap: 43px;
+    /* gap: 43px; */
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 43px;
+    row-gap: 40px;
 }
 .block__head{
     margin-bottom: 17px;
@@ -46,7 +44,8 @@
 }
 .right__down{
     display: grid;
-    grid-template-columns: repeat(3, 270px);
+    /* grid-template-columns: repeat(3, 270px); */
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     margin-top: 65px;
     column-gap: 43px;
     row-gap: 20px;
